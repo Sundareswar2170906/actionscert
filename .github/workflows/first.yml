@@ -1,0 +1,9 @@
+name: My First Workflow
+on: workflow_dispatch
+
+jobs:
+  first:
+    runs_on: ubuntu-latest
+    steps:
+      - name: print name
+        run: echo Sundareswar
