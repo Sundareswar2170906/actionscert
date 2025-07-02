@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print name
-        run:|
+        run: |
           echo Goobye
           echo Thanks
