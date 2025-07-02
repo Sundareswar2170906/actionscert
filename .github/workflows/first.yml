@@ -6,7 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print name
-        run: | 
-        echo Hi
-        echo Goobye
-        echo Thanks
+        run:|
+          echo Goobye
+          echo Thanks
