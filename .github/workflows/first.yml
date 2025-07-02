@@ -6,5 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print name
-        run: echo Sundareswar
       - run: echo Goobye
